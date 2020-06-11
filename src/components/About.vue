@@ -138,5 +138,8 @@ p {
     margin-left: 0px;
     margin: 0 auto !important;
   }
+  h2 {
+      text-align: center;
+  }
 }
 </style>

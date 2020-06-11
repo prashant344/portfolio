@@ -212,5 +212,9 @@
   .title-container-small-screen {
     display: block;
   }
+  .details-container {
+    align-items: center;
+    justify-content: center;
+  }
 }
 </style>

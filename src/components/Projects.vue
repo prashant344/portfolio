@@ -120,6 +120,7 @@ export default {
   background-attachment: fixed;
   width: 100%;
   padding: 20px;
+  box-sizing: border-box;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -187,7 +188,8 @@ export default {
 }
 .project-details {
   position: absolute;
-  width: 500px;
+  max-width: 500px;
+  margin: 0px auto !important;
   z-index: 1;
   background: #fff;
   border-radius: 5px;
