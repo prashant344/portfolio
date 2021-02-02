@@ -65,6 +65,9 @@ export default {
   margin-top: 60px;
   scroll-behavior: smooth;
 }
+html, body {
+  overflow-x: hidden;
+}
 .fade-in-section {
   opacity: 0;
   transform: translateY(20vh);
