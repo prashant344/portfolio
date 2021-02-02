@@ -64,8 +64,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
   scroll-behavior: smooth;
-}
-html, body {
   overflow-x: hidden;
 }
 .fade-in-section {
