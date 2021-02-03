@@ -24,10 +24,10 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### To deploy latest changes
-git checkout gh-pages
-make changes
-npm run build
-copy all files from dist folder to root
-git add -A
-git commit -m "deploy"
-git push origin gh-pages
+1. git checkout gh-pages
+2. make changes
+3. npm run build
+4. copy all files from dist folder to root
+5. git add -A
+6. git commit -m "deploy"
+7. git push origin gh-pages
