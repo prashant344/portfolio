@@ -64,7 +64,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 .fade-in-section {
   opacity: 0;
@@ -77,5 +76,10 @@ export default {
   opacity: 1;
   transform: none;
   visibility: visible;
+}
+@media screen and (max-width: 840px) {
+  #app {
+    overflow-x: hidden;
+  }
 }
 </style>

@@ -30,4 +30,10 @@ export default {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
+@media screen and (max-width: 840px) {
+  .banner {
+    background-position: unset;
+    background-attachment: unset;
+  }
+}
 </style>
