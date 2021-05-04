@@ -209,6 +209,7 @@ export default {
 @media screen and (max-width: 840px) {
   .project-container {
     flex-direction: column;
+    background-attachment: unset;
   }
   .project-card {
     height: auto;

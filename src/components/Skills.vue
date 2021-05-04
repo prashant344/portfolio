@@ -159,4 +159,9 @@ export default {
   transform: translateY(-30px);
   text-transform: uppercase;
 }
+@media screen and (max-width: 840px) {
+  .skills-container {
+    background-attachment: unset;
+  }
+}
 </style>>

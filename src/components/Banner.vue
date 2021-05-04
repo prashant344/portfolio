@@ -33,6 +33,7 @@ export default {
 @media screen and (max-width: 840px) {
   .banner {
     background-position: unset;
+    background-attachment: unset;
   }
 }
 </style>
